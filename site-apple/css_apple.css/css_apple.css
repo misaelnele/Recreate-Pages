@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    margin-left: 100px;
+}
+
+header#cabecalho {
+
+}
+
+header#cabecalho h1 {
+    font-size: 32pt;
+    padding-top: 120px;
+}
+
+/*Formatação do menu*/
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    font-size: 9pt;
+    list-style: none;
+    position: absolute;
+    top: -12px;
+    margin-left: 70px;
+}
+
+nav#menu li {
+    display: inline-block;
+    padding: 16px;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+/*Formatação do "Links rápidos"*/
+
+nav#linksrapidos {
+    display: block;
+}
+
+nav#linksrapidos ul {
+    font-size: 14px;
+    list-style: none;
+    text-transform: none;
+}
+
+nav#linksrapidos li {
+    display: inline-block; 
+    background-color: #ffffff;
+    border: 1px solid;
+    border-radius: 30px;
+    transition: background-color;
+    padding: 10px 15px 10px 15px;
+    margin: 10px 10px 40px 10px;
+}
+
+nav#linksrapidos li:hover {
+    background-color: rgb(39, 39, 41);
+}
+
+nav#linksrapidos a:hover {
+    color: #ffffff;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    font-size: 13px;
+    text-align: justify;
+    color: rgb (110, 110, 115);
+    opacity: .7;
+}
+
+footer#rodape {
+    
+}
